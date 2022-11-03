@@ -1,3 +1,2 @@
 # EduKit
-Proxy
-deployed from /docs
+github is annoying
