@@ -3,8 +3,8 @@ body{
 	background-color: black;
 }
 #container{
-	width: 1000px;
-	height: 550px;
+	width: auto;
+	height: auto;
 	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(bgImg.jpg);
 	margin: 20px auto;	
 }
