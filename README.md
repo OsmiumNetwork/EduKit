@@ -1,2 +1,2 @@
 # EduKit
-github is annoying
+Proxy, by osmiumnetwork, powered by UV
