@@ -1,2 +1,2 @@
 # EduKit
-Proxy, by osmiumnetwork, powered by UV
+Proxy, by Osmium Network, powered by UV
