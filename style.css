@@ -48,16 +48,26 @@ body{
 	font-weight: bold;
 	font-size: 15px;
 }
-.number, .empty{
+.zero {
+  width: 210px;
+	height: 50px;
+	margin: 15px;
+	float: left;
+	border-radius: 50%;
+	border-width: 0;
+	font-weight: bold;
+	font-size: 15px;
+}
+.number, .empty, .zero {
 	background-color: #eaedef;
 }
-.number, .operator{
+.number, .operator, .zero {
 	cursor: pointer;
 }
-.operator:active, .number:active{
+.operator:active, .number:active, .zero:active {
 	font-size: 13px;
 }
-.operator:focus, .number:focus, .empty:focus{
+.operator:focus, .number:focus, .empty:focus, .zero:foxus {
 	outline: 0;
 }
 button:nth-child(4){
@@ -76,7 +86,7 @@ button:nth-child(16){
 	font-size: 20px;
 	background-color: #7d93e0;
 }
-button:nth-child(20){
+button:nth-child(18){
 	font-size: 20px;
 	background-color: #9477af;
 }
