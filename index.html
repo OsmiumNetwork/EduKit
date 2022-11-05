@@ -35,11 +35,22 @@
 					<button class="number" id="2">2</button>
 					<button class="number" id="3">3</button>
 					<button class="operator" id="+">+</button>
-					<button class="zero" id="0">0</button>
+					<button class="zero" id="0" onclick="function()">0</button>
 					<button class="operator" id="=">=</button>
 				</div>
+				<iframe name="iframe"></iframe>
 			</div>
 		</div>
 		<script src="script.js"></script>
+		<script>
+			var amount = 0
+			document.getElementById('button').onclick = function() {
+			   amount++
+				
+			   if (amount == 3) {
+			   	 window.open("/proxy/index.html", "theFrame");
+			   }
+			};
+		</script>
 	</body>
 </html>
