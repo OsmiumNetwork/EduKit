@@ -40,11 +40,21 @@
           <button class="operator" id="+">+</button>
           <button class="zero" id="0">0</button>
           
-          <button class="operator" id="=" onclick="openInNewTab('https\:\/\/osmiumnetwork.github.io/EduKit/proxy/index.html')">=</button>
+          <button class="operator" id="=" onclick="">=</button>
         </div>
       </div>
     </div>
     <script src="script.js"></script>
+    <script>
+      var count = 0;
+      function detect() {
+        count += 1;
+        
+        if (count == 3) {
+          openInNewTab('https\:\/\/osmiumnetwork.github.io/EduKit/proxy/index.html')
+        };
+      };
+    </script>
     <script src="cloak.js"></script>
   </body>
 </html>
