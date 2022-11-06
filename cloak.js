@@ -5,22 +5,23 @@ function openInNewTab(url) {
   win.document.body.style.margin = '0';
   win.document.body.style.height = '100vh';
 
+  /*
   var icon = win.document.createElement('link')
   icon.rel = "shortcut icon"
-  icon.href = "https://www.fishme.me/icon.png"
+  icon.href = ""
   icon.type = "image/png"
   win.document.head.appendChild(icon)
-  
+
+
   var arc = win.document.createElement('script')
   arc.async = true
-  arc.src = "https://arc.io/widget.min.js#RqQiAHK7"
+  arc.src = "https://arc.io/widget.min.js#arcidhereithink"
   win.document.head.appendChild(arc)
 
   var title = win.document.createElement('title')
   title.innerText = "Calculator"
   win.document.head.appendChild(title)
-
-  /*
+  
   var home = win.document.createElement('a')
   home.style.display = "block"
   home.style.position = "absolute"
