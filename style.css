@@ -5,7 +5,7 @@ body {
 }
 #container {
   width: auto;
-  height: auto;
+  height: 1028px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(https://studiodiy.com/wp-content/uploads/2016/09/Back-To-School-Wallpaper_StudioDIY-LoveVividly-3.jpg);
   margin: 20px auto;
