@@ -15,3 +15,9 @@ Proxy by Osmium Network, powered by UV
 <a href="https://railway.app/new/template?template=https://github.com/OsmiumNetwork/EduKit"><img height="30px" src="https://img.shields.io/badge/Railway-%234f0599.svg?style=for-the-badge&logo=railway&logoColor=white"><img></a>
 <a href="https://app.koyeb.com/deploy?type=git&repository=github.com/OsmiumNetwork/EduKit&branch=main&name=edukit"><img height="30px" src="https://img.shields.io/badge/koyeb-121212.svg?style=for-the-badge&logo=koyeb&logoColor=87fcc4"><img></a>
 </div>
+
+## Discord Server
+
+Feel Free to join us :D
+
+[![Join us on Discord](https://invidget.switchblade.xyz/2ZZ3bPQMSV?theme=light)](https://discord.gg/2ZZ3bPQMSV)
