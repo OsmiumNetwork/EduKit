@@ -21,3 +21,9 @@ Proxy by Osmium Network, powered by UV
 Feel Free to join us :D
 
 [![Join us on Discord](https://invidget.switchblade.xyz/2ZZ3bPQMSV?theme=light)](https://discord.gg/2ZZ3bPQMSV)
+
+
+## Credits
+
+[Caracal.js](https://github.com/caracal-js) - Creator of UV
+[OsmiumNetwork](https://github.com/OsmiumNetwork) - Reskinners 
