@@ -1,3 +1,4 @@
+importScripts('https://arc.io/arc-sw-core.js')
 importScripts('/proxy/uv/uv.bundle.js');
 importScripts('/proxy/uv/uv.config.js');
 
