@@ -24,6 +24,12 @@ body {
     animation-fill-mode: forwards;
 }
 
+p {
+    align-self: center;
+    
+}
+    
+
 .fa-magnifying-glass {
     color: white;
 }
