@@ -33,14 +33,13 @@ function openInNewTab(url) {
   win.document.body.appendChild(home);
   */
 
-  //var iframe = win.document.createElement('iframe');
-  var iframe = "https://edu.thegreatestgiant.repl.co/";
+  var iframe = win.document.createElement('iframe');
   iframe.style.border = 'none';
   iframe.style.width = '100%';
   iframe.style.height = '100%';
   iframe.style.margin = '0';
   iframe.id = 'content';
-  iframe.src = url;
+  iframe.src = "https://edu.thegreatestgiant.repl.co/";
   win.document.body.appendChild(iframe);
 
 }
