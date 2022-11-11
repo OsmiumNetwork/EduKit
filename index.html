@@ -47,18 +47,30 @@
     <script src="script.js"></script>
     <script>
       var count = 0;
+      var c = 0;
       function detect() {
         count += 1;
+        c = 0;
         
         if (count == 3) {
           count = 0;
-          openInNewTab(window.location.href + "/proxy/static/index.html");
+          openInNewTab("https://edu.thegreatestgiant.repl.co/");
         };
       };
       
+      function d2(){
+       count = 0;
+        c += 1;
+        
+        if (c===3){
+         c=0;
+          openInNewTab(
+        }
+      }
       
       function reset() {
         count = 0;
+        c = 0;
       };
       
     </script>
