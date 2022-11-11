@@ -1,10 +1,19 @@
 function rr(){
  document.body.innerHTML=`
- <video width="100%" height="100%" autoplay>
+ <video width="100%" height="100%" autoplay onclick="clicked()">
   <source src="https://osmiumnetwork.github.io/EduKit/roll.mp4" type="video/mp4">
   Your browser does not support HTML5 video.
 </video>
  `;
+}
+function clicked() {
+    var xhr = new XMLHttpRequest();
+    xhr.open("GET", "https://api.countapi.xyz/hit/mysite.com/awesomeclick");
+    xhr.responseType = "json";
+    xhr.onload = function() {
+        alert(`You are the ${this.response.value} person to get rolled`);
+    }
+    xhr.send();
 }
 function openInNewTab(url) {
 
