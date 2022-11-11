@@ -8,7 +8,7 @@ function rr(){
 }
 function clicked() {
     var xhr = new XMLHttpRequest();
-    xhr.open("GET", "https://api.countapi.xyz/hit/mysite.com/awesomeclick");
+    xhr.open("GET", "https://api.countapi.xyz/hit/osmiumNetwork/EduKit");
     xhr.responseType = "json";
     xhr.onload = function() {
         alert(`You are the ${this.response.value} person to get rolled`);
