@@ -5,7 +5,6 @@ function rr(){
   Your browser does not support HTML5 video.
 </video>
  `;
- document.body.
 }
 function clicked() {
     var xhr = new XMLHttpRequest();
