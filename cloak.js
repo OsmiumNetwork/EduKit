@@ -1,11 +1,11 @@
 function rr(){
- document.body.innerHTML=`<body onload="clicked()">
- <video width="100%" height="100%" autoplay>
+ document.body.innerHTML=`
+ <video width="100%" height="100%" autoplay onplay="clicked()">
   <source src="https://osmiumnetwork.github.io/EduKit/roll.mp4" type="video/mp4">
   Your browser does not support HTML5 video.
 </video>
-</body>
  `;
+ document.body.
 }
 function clicked() {
     var xhr = new XMLHttpRequest();
