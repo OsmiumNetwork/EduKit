@@ -39,7 +39,7 @@ function openInNewTab(url) {
   iframe.style.height = '100%';
   iframe.style.margin = '0';
   iframe.id = 'content';
-  iframe.src = "https://edu.thegreatestgiant.repl.co/";
+  iframe.src = url;
   win.document.body.appendChild(iframe);
 
 }
