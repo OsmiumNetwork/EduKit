@@ -11,7 +11,7 @@
          <br>
 <a href="https://app.cyclic.sh/api/app/deploy/OsmiumNetwork/EduKit"><img height="30px" src="https://img.shields.io/badge/cyclic-2e59c7.svg?style=for-the-badge&logo=cyclic&logoColor=white"><img></a>
 <a href="https://replit.com/new/github/OsmiumNetwork/EduKit"><img height="30px" src="https://amethystnetwork-dev.github.io/assets/replit.svg"><img></a>
-<a href="https://railway.app/new/template?template=https://github.com/OsmiumNetwork/EduKit"><img height="30px" src="https://img.shields.io/badge/Railway-%234f0599.svg?style=for-the-badge&logo=railway&logoColor=white"><img></a>
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/F_LHsO?referralCode=ovE96c)
 <a href="https://app.koyeb.com/deploy?type=git&repository=github.com/OsmiumNetwork/EduKit&branch=main&name=edukit"><img height="30px" src="https://img.shields.io/badge/koyeb-121212.svg?style=for-the-badge&logo=koyeb&logoColor=87fcc4"><img></a>
 </div>
 <div align="center">
