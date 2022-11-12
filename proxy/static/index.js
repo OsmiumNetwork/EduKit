@@ -3,8 +3,8 @@ const input = document.querySelector('input');
 
 form.addEventListener('submit', async event => {
     event.preventDefault();
-    window.navigator.serviceWorker.register(__uv$config.sw, {
-        scope: '/'
+    window.navigator.serviceWorker.register('./sw.js', {
+        scope: __uv$config.prefix
     }).then(() => {
         let url = input.value.trim();
         if (!isUrl(url)) url = 'https://www.google.com/search?q=' + url;
