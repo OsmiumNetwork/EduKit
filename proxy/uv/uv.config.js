@@ -1,5 +1,5 @@
 self.__uv$config = {
-    prefix: '/EduKit/proxy/static/~/',
+    prefix: '/proxy/static/~/',
     bare: '/bare/',
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
