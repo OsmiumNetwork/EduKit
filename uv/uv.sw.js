@@ -1,6 +1,5 @@
-importScripts('https://arc.io/arc-sw-core.js')
-importScripts('/EduKit/proxy/uv/uv.bundle.js');
-importScripts('/EduKit/proxy/uv/uv.config.js');
+importScripts('uv.bundle.js');
+importScripts('uv.config.js');
 
 class UVServiceWorker extends EventEmitter {     
     constructor(config = __uv$config) {
